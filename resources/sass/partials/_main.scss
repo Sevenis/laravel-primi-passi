@@ -1,0 +1,31 @@
+main {
+    width: 100vw;
+
+    .cards {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        padding: 20px 0 ;
+
+        h2 {
+            padding: 20px 0;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            padding-right: 10px;
+
+            h3 {
+                padding: 10px 0;
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
