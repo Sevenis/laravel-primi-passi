@@ -13,11 +13,17 @@ nav {
 
     li {
         display: inline-block;
+
         a {
             font-size: 12px;
             color: black;
             text-decoration: none;
             padding: 0 10px;
         }
+
+        .rosso {
+            border-bottom: 2px solid #002d75;
+        }
+
     }
 }
