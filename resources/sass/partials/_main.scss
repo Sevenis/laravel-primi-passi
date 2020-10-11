@@ -2,29 +2,41 @@ main {
     width: 100vw;
 
     .cards {
-        width: 80%;
+        width: 800px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         flex-wrap:wrap;
-        padding: 20px 0 ;
+        padding: 20px 10px ;
 
         h2 {
-            padding: 20px 0;
+            font-size: 25px;
+            padding-top: 30px;
         }
+        .border-box{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
 
-        .card {
-            display: flex;
-            flex-direction: column;
-            padding-right: 10px;
+            .card {
+                display: flex;
+                flex-direction: row;
+                padding-right: 10px;
 
-            h3 {
-                padding: 10px 0;
-            }
+                .box-card {
+                    display: flex;
+                    flex-direction: column;
+                }
 
-            img {
-                width: 250px;
-                height: 250px;
+                h3 {
+                    font-size: 15px;
+                    padding-top: 15px;
+                }
+
+                img {
+                    width: 250px;
+                    height: 250px;
+                }
             }
         }
     }
